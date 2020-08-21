@@ -1,0 +1,136 @@
+h1,h2,h5,p{
+    font-family: 'Trebuchet MS';
+}
+
+section {
+    padding: 50px 0;
+}
+
+/*----------------------Navigation Bar-------------------------*/
+.navigation_bar{
+    background-color: black;
+}
+.navigation_text{
+    color: #c9bcb4;
+    font-size: 36px;
+    font-family: 'Trebuchet MS';
+    padding: 15px;
+    margin-left: 40px;
+}
+/*----------------------Banner Image-------------------------*/
+.banner-image {
+    height: 400px;
+    width: auto;
+}
+
+/*------------------------ Icon Section ---------------------*/
+.card_icon_holder1{
+    background-color: #a5d649;
+    color: white;
+    max-width: 540px;
+    border-radius: 10px;
+}
+.card_icon_holder2{
+    background-color: #1ca39d;
+    color: white;
+    max-width: 540px;
+    border-radius: 10px;
+}
+.card_icon_holder3{
+    background-color: #818181;
+    color: white;
+    max-width: 540px;
+    border-radius: 10px;
+}
+.icon_holder{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.icon {
+    height: 55px;
+    width: auto;
+  }
+
+
+/*------------------------ Feature Section ---------------------*/
+.feature_section{
+    background-color: #f3f3f3;
+}
+.feature_image{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  margin: 20px;
+}
+.feature_box{
+    text-align: center;
+}
+
+
+/*------------------------ bottom banner Section ---------------------*/
+.bottom_banner {
+  background-image: url("../images/ddg-bg.jpg");
+  height: 400px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.bottom_text_1 {
+    color: white;
+    font-size: 26px;
+}
+.bottom_text_2 {
+    color: white;
+    font-weight: bold;
+    font-size: 52px;
+    align-items: center;
+    display: flex;
+}
+
+.bottom_text_2 .button {
+    background-color: #a5d649;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    height: 50px;
+    margin-left: 40px;
+}
+
+/*------------------------ copyright Section ---------------------*/
+
+.copyright {
+  text-align: center;
+  padding: 16px 0;
+  color: #fff;
+  background: #000;
+}
+
+
+/*------------------------ responsive Section ---------------------*/
+@media screen and (max-width: 755px) {
+  .card-section .row , .feature_section .row {
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    height: 100px;
+    width: auto;
+    margin-top: 30px;
+  }
+
+  .bottom_text_2 {
+    margin-top: 5px;
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 756px) {
+  .card-section .card-body {
+    padding-left: 0;
+  }
+}
