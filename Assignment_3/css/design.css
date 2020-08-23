@@ -1,0 +1,74 @@
+.body-container{
+    background-color: rgb(255, 244, 244);
+    max-width: 700px;
+    margin: auto;
+}
+h2{
+    text-shadow: 2px 1px 3px rgb(63, 63, 63);
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.label-text{
+    text-shadow: 3px 1px 5px rgb(136, 136, 136);
+    color: black;
+    font-weight: bold;
+    margin: 40px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input-box-1{
+    width: 450px;
+    padding: 12px 8px;
+    margin: 12px 8px;
+    border: 2px solid rgb(94, 0, 148);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.input-box-2{
+    width: 450px;
+    height: 50px;
+    padding: 12px 8px;
+    margin: 12px 8px;
+    border: 2px solid rgb(94, 0, 148);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.submit-button{
+    font-family: Arial;
+    padding: 5px 12px;
+    margin: 15px;
+    background-color: rgb(94, 0, 148);
+    color: white;
+    border-radius: 4px;
+}
+.table-button{
+    font-family: Arial;
+    padding: 5px 12px;
+    margin-left: 15px;
+    background-color: rgb(94, 0, 148);
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.table-container{
+    width: auto;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: auto;
+    overflow-y: auto;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
